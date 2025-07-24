@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- New Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-70W3F3Y2H8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-70W3F3Y2H8');
+</script>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Virtual Workgroups</title>
+<!-- TemplateEndEditable -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- TemplateBeginEditable name="head" -->
+<meta name="description" content="Virtual Workgroups">
+<meta name="keywords" content="chiprack,guttergrow,dil power">
+<meta name="author" content="Mike Anstey">
+
+  
+
+  <meta charset="utf-8">
+  
+  <link href="../css/grid2.css" rel="stylesheet" type="text/css">
+  
+  <!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+    <div class="item1">
+      <header>
+        <h1>Greening Urban Environments </h1>
+      </header>
+    </div>
+
+    <div class="item2">
+      <nav>
+        <a href="../index.html">Home</a> | <a href="../projects.html">Projects</a> |
+        <a href="../news.html">News</a> | <a href="../aboutUs3.html">About Us</a> | <a href="../contact.html">Contact Us</a>
+      </nav>
+    </div>
+    <!-- TemplateBeginEditable name="EditRegion3" -->
+    <div class="item3">
+      <h1>Welcome to Virtual Workgroups</h1>
+    </div>
+    <div class="item4"></div>
+    <div class="item5"></div>
+    <!-- TemplateEndEditable -->
+    <div class="item6">
+      <footer>
+        <div class="imgRight"><img src="../images/eulogo.jpg" alt="EU logo" width="150" height="50" class="imgRight"></div>
+        <div class="imgLeft"><img src="../images/eeda.jpg" alt="eeda logo" width="150" height="50"></div>
+
+        <h4>Virtual Workgroups Ltd ----- Sustainable Opportunities Ltd </h4>
+        <h4>Unit 2 Craft Courtyard, Stockwood Park Discovery Centre, London Road, Luton LU1 4BH</h4>
+
+      </footer>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			@keyframes tickerv {
+				0%   {margin-top: 0;}
+				25%  {margin-top: -26px;}
+				50%  {margin-top: -52px;}
+				75%  {margin-top: -78px;}
+				100% {margin-top: 0;}
+			}
+			.tickerv-wrap {
+				background: #eee;
+				box-sizing: content-box;
+				height: 25px;
+				overflow: hidden;
+				padding: 10px;
+			} 
+			.tickerv-wrap ul {
+				padding:0;
+				margin:0;
+				list-style-type: none;
+				animation-name: tickerv;
+				animation-duration:10s;
+				animation-iteration-count: infinite;
+				animation-timing-function: cubic-bezier(1, 0, .5, 0);
+			}
+			.tickerv-wrap ul:hover {
+				animation-play-state: paused;
+			}
+			.tickerv-wrap ul li {
+				font-size:18px;
+				line-height: 26px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="tickerv-wrap">
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+				<li>Aliquam consequat varius consequat.</li>
+				<li>Fusce dapibus turpis vel nisi malesuada sollicitudin.</li>
+				<li>Pellentesque auctor molestie orci ut blandit.</li>
+			</ul>
+		</div>
+	</body>
+</html>

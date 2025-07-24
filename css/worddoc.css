@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	background-color: #FFF;
+	line-height: normal;
+	text-align: left;
+	white-space: normal;
+	width: auto;
+	font-size: 10pt;
+}
+
+body p {
+	color: #006;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 9pt;
+	width: auto;
+}
+body {
+	width: auto;
+	margin: 20px;
+	padding: 20px;
+}

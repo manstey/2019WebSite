@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96770703-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96770703-1');
+</script>
+
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+
+<title></title>
+
+<!-- TemplateEndEditable -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="../css/main.css" type="text/css" rel="stylesheet" />
+
+<meta name="keywords" content="gutter, grow, guttergrow, plant, growing, vegetables, schools, local authorities, housing associations, products, projects, news"/>
+<meta name="description" content="Sustainable Opportunities Virtual Workgroups about us" />
+<!--Meta data for use by search engines needs inserting -->
+
+<!-- TemplateBeginEditable name="head" -->
+
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div class="container"><!-- #BeginLibraryItem "/Library/Header.lbi" --><header class="SOGreen">
+    <h1><strong>Sustainable Opportunities Ltd    </strong></h1>
+    <h2><strong>Greening Urban Evironments</strong>   </h2>
+  </header><!-- #EndLibraryItem --><nav>
+    <p><a href="../index.html">Home</a> | <a href="../projects.html">Projects</a> |
+	<a href="../news.html">News</a> | <a href="../AboutUs3.html">About Us</a> | <a href="../contact.html">Contact Us</a> | <a href="../help.html">Help</a></p>
+  </nav>
+
+  
+<article class="content"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
+    <p>&nbsp;</p>
+  </article>
+    <!-- end .content --><!-- #BeginLibraryItem "/Library/Footer.lbi" -->     <footer>
+      <div class="imgRight"><img src="../images/eulogo.jpg" alt="EU logo" width="150" height="50" class="imgRight"></div>
+      <div class="imgLeft"><img src="../images/eeda.jpg" alt="eeda logo" width="150" height="50"></div>  
+      
+      <h4>Virtual Workgroups Ltd ----- Sustainable Opportunities Ltd  </h4>
+      <h4>Unit 2 Craft Courtyard, Stockwood Park Discovery Centre, London Road, Luton LU1 4BH</h4>
+      </footer><!-- #EndLibraryItem --><!-- end .container --></div>
+</body>
+</html>

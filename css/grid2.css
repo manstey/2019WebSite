@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.grid-container {
+    display: grid;
+    margin: 15px;
+    padding: 25px;
+    background-image: url(../images/bit2.JPG);
+    background-repeat: repeat;
+    grid-template-areas:
+        'header header header header header header'
+        'nav nav nav nav nav nav'
+        'main1 main1 main1 main1 main1 main1'
+        'main2 main2 main2 main2 main2 main2'
+        'main3 main3 main3 main3 main3 main3'
+        'footer footer footer footer footer footer';
+}
+
+.grid-container > div {
+    width: auto;
+	
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.wrapper > div {
+    background-color: white;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.wrapper2 {
+	display: grid;
+	font-family: "Arial Black", Gadget, sans-serif;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	justify-content: space-evenly;
+	grid-gap: 10px;
+	background-color: white;
+	padding: 10px;
+	color: #000;
+}
+
+.wrapper2 > div {
+	/* [disabled]background-color: white; */
+	border: 5px solid black;
+	text-align: center;
+}
+
+
+
+.item1 {
+    background-color: aqua;
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: nav;
+}
+
+.item3 {
+    grid-area: main1;
+}
+
+.item4 {
+    grid-area: main2;
+}
+
+.item5 {
+    grid-area: main3;
+}
+
+.item6 {
+    grid-area: footer;
+}
+
+.grid-container .item1 header h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    color: #060;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 36px;
+}
+
+header {
+    left: 1px;
+    float: none;
+    height: 150px;
+    text-align: right;
+    background-color: white;
+    background-image: url(../images/vwlogo.jpg);
+    background-repeat: no-repeat;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: right;
+    color: black;
+    border-top-style: solid;
+    border-right-width: thin;
+    border-bottom-style: solid;
+    border-left-width: thin;
+    background-color: #CCC;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+footer {
+    bottom: auto;
+    height: 70px;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0px;
+    padding-left: 0;
+    text-align: center;
+    color: #000;
+    background-color: #FFFFFF;
+    background-image: url(../images/cost_footer.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.imgRight {
+    float: right;
+    clear: none;
+    width: 150px;
+    height: auto;
+    margin: 5px;
+}
+
+.imgLeft {
+    float: left;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.grid-container .item3 h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    background-image: url(../images/bit2.JPG);
+    background-repeat: repeat;
+    text-align: center;
+}
+
+
+
+iframe {
+    float: right;
+}
+
+
+
+.grid-container .item4 h1,h2,h3,p {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    border: 1px none #FFF;
+    margin: 5px;
+    padding: 5px;
+
+}
+.grid-container .item4 h2,h3,p {
+	color: #FFF;
+}
+.grid-container .item4 h2 a {
+	color: #FFF;
+}
+
+}
+
+
+
+.grid-container .item4 a {
+    color: #333;
+}
+
+.grid-container .item4 img {
+	margin: 15px;
+	padding: 5px;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #FFF;
+}
+
+
+
+.grid-container .item4 .wrapper div h5 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.grid-container .item4 .wrapper div h1,
+h2,
+h3 {
+    color: #060;
+}
+
+.grid-container .item4 .wrapper img {
+	height: 75%;
+	width: 50%;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #000;
+}
+.grid-container .item4 .wrapper div a img {
+	height: 100px;
+	width: 100px;
+}
+.grid-container .item4 .wrapper div p {
+    color: #000;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+.grid-container .item4 .worddoc {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #030;
+	background-color: #FFF;
+	margin: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+
+.grid-container .item4 .worddoc img {
+	height: 60%;
+	width: 30%;
+}
+
+.grid-container .item4 .worddoc h1, h2, p {
+	color: #003;
+}
+.grid-container .item4 .worddoc h2 {
+	color: #030;
+}
+
+
+
+
+.grid-container .item4 .wrapper2 div img {
+	height: auto;
+	width: 60%;
+}
+
+
+
+.grid-container .item4 .wrapper2 div h2 a {
+	color: #030;
+}
+
+.grid-container .item4 .wrapper2 div h2 {
+	color: #030;
+}
+
+.grid-container .item4 .wrapper2 div .smallimage img {
+	height: 75px;
+	width: 75px;
+}
